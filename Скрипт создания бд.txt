@@ -1,0 +1,36 @@
+Use AUCTION;
+
+CREATE TABLE Users
+(
+IdUser INT NOT NULL,
+Logins varchar(20) NOT NULL,
+Pass varchar(11) NOT NULL,
+Names nvarchar(20) NOT NULL,
+Surname nvarchar(20) NOT NULL,
+Patronymic nvarchar(20) NOT NULL,
+Age INT NOT NULL,
+)
+
+ALTER TABLE Users ADD CONSTRAINT PK_Users PRIMARY KEY(IdUser);
+
+
+
+CREATE TABLE Lots
+(
+IdLot INT NOT NULL,
+NamesLot nvarchar(25) NOT NULL,
+IdProd int NOT NULL,
+TimeOfEnd time NOT NULL,
+)
+
+ALTER TABLE Lots ADD CONSTRAINT PK_Lots PRIMARY KEY(IdLot);
+
+CREATE TABLE Products
+(
+IdProd INT NOT NULL,
+NameProd nvarchar(25) NOT NULL,
+Cost INT NOT NULL,
+TypeProd nvarchar(25) NOT NULL,
+)
+
+ALTER TABLE Products ADD CONSTRAINT PK_Prod PRIMARY KEY(IdProd);
