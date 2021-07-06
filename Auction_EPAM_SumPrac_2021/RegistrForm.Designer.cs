@@ -40,7 +40,7 @@ namespace Auction_EPAM_SumPrac_2021
             this.ClientSize = new System.Drawing.Size(1008, 561);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegistrForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auction";
             this.ResumeLayout(false);
 

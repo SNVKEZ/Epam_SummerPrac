@@ -53,9 +53,9 @@ namespace Auction_EPAM_SumPrac_2021
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Auction_EPAM_SumPrac_2021.Properties.Resources.user;
-            this.pictureBox1.Location = new System.Drawing.Point(59, 152);
+            this.pictureBox1.Location = new System.Drawing.Point(90, 152);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 120);
+            this.pictureBox1.Size = new System.Drawing.Size(99, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -64,9 +64,9 @@ namespace Auction_EPAM_SumPrac_2021
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Auction_EPAM_SumPrac_2021.Properties.Resources.password;
-            this.pictureBox2.Location = new System.Drawing.Point(59, 311);
+            this.pictureBox2.Location = new System.Drawing.Point(90, 311);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(130, 120);
+            this.pictureBox2.Size = new System.Drawing.Size(99, 98);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -75,9 +75,8 @@ namespace Auction_EPAM_SumPrac_2021
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(226, 152);
-            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(694, 120);
+            this.textBox1.Size = new System.Drawing.Size(694, 98);
             this.textBox1.TabIndex = 4;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -85,9 +84,9 @@ namespace Auction_EPAM_SumPrac_2021
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox2.Location = new System.Drawing.Point(226, 311);
-            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(694, 120);
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(694, 98);
             this.textBox2.TabIndex = 5;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -119,8 +118,9 @@ namespace Auction_EPAM_SumPrac_2021
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auction";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

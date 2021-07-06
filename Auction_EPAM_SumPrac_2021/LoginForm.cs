@@ -15,6 +15,7 @@ namespace Auction_EPAM_SumPrac_2021
         public LoginForm()
         {
             InitializeComponent();
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -33,6 +34,11 @@ namespace Auction_EPAM_SumPrac_2021
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
         {
 
         }
