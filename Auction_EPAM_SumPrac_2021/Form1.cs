@@ -35,5 +35,10 @@ namespace Auction_EPAM_SumPrac_2021
             LoginForm f1 = new LoginForm();
             f1.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
