@@ -21,5 +21,10 @@ namespace Auction_EPAM_SumPrac_2021
         {
             Application.Exit();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
