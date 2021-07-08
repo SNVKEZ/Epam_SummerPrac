@@ -47,5 +47,12 @@ namespace Auction_EPAM_SumPrac_2021
         {
             Application.Exit();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f = new Form1();
+            f.Show();
+        }
     }
 }

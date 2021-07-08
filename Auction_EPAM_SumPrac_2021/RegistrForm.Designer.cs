@@ -38,6 +38,7 @@ namespace Auction_EPAM_SumPrac_2021
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
@@ -125,12 +126,27 @@ namespace Auction_EPAM_SumPrac_2021
             this.label8.TabIndex = 14;
             this.label8.Text = "Придумайте себе пароль:";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.ForeColor = System.Drawing.Color.Red;
+            this.label9.Location = new System.Drawing.Point(12, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(73, 26);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "BACK";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
             // RegistrForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1008, 561);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -159,5 +175,6 @@ namespace Auction_EPAM_SumPrac_2021
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }

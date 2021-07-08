@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Auction_EPAM_SumPrac_2021
 {
-    public partial class RegistrForm : Form
+    public partial class AdminForm : Form
     {
-        public RegistrForm()
+        public AdminForm()
         {
             InitializeComponent();
         }
@@ -22,12 +22,7 @@ namespace Auction_EPAM_SumPrac_2021
             Application.Exit();
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form1 f = new Form1();
